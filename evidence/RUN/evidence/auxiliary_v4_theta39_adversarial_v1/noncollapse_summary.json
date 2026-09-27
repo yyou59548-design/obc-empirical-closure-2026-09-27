@@ -1,0 +1,49 @@
+{
+  "all_point_interval_entries_contained_by_box": true,
+  "box_archive_sha256": "a764ca352ca91a508078e6783a87df28a0f74f54ab2797ba5889c822a7eb78ef",
+  "box_spec_sha256": "564ce832e7a7c0d523eade390b4bb3f767695a23f8d3553982f7d488ca283bde",
+  "generated_utc": "2026-09-27T09:01:11.278333+00:00",
+  "matrices": {
+    "A": {
+      "box_nonzero_entries": 18,
+      "entries_with_strictly_wider_radius": 17,
+      "max_radius_increment_float": 6.492460620084564e-36,
+      "point_nonzero_entries": 18
+    },
+    "B": {
+      "box_nonzero_entries": 154,
+      "entries_with_strictly_wider_radius": 59,
+      "max_radius_increment_float": 4.217295483300567e-35,
+      "point_nonzero_entries": 154
+    },
+    "C": {
+      "box_nonzero_entries": 33,
+      "entries_with_strictly_wider_radius": 26,
+      "max_radius_increment_float": 3.5943756996192886e-36,
+      "point_nonzero_entries": 33
+    },
+    "D": {
+      "box_nonzero_entries": 12,
+      "entries_with_strictly_wider_radius": 2,
+      "max_radius_increment_float": 1.1358800916513335e-36,
+      "point_nonzero_entries": 12
+    },
+    "Nraw": {
+      "box_nonzero_entries": 148,
+      "entries_with_strictly_wider_radius": 73,
+      "max_radius_increment_float": 4.217295483300567e-35,
+      "point_nonzero_entries": 148
+    },
+    "Praw": {
+      "box_nonzero_entries": 79,
+      "entries_with_strictly_wider_radius": 31,
+      "max_radius_increment_float": 4.217295483300567e-35,
+      "point_nonzero_entries": 79
+    }
+  },
+  "point_archive_sha256": "d2313857acd06e6249b0f1fa088d81cc3decf03de7136a4496f6796fa5837ac7",
+  "scientific_impossibility_proven": false,
+  "scope": "READ_ONLY_THETA39_INTERVAL_NONCOLLAPSE_AUDIT",
+  "theta_box_has_positive_volume": true,
+  "total_entries_strictly_widened": 208
+}
