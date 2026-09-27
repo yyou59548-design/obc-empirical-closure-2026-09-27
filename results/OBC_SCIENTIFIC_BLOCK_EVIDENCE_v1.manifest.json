@@ -1,0 +1,10 @@
+{
+  "package": "OBC_SCIENTIFIC_BLOCK_EVIDENCE_v1.zip",
+  "package_sha256": "ceba2b91702f0aa20aa97bc2995847cf94db18585d89a7c08c2aa005694ea9c4",
+  "package_bytes": 579529,
+  "file_count": 72,
+  "source_status_sha256": "74763e00c26e81f72394fed2254077cef6cfe62f97f0e9ddf6cbf7214d0e5e7d",
+  "source_ledger_sha256": "acc6c81c50fcdae46374ada7a6db0b2c0699bb0a1cb156fe3259aba7cf17e230",
+  "endpoint_result": false,
+  "paper_ready": false
+}
