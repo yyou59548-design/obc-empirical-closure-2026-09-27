@@ -1,0 +1,56 @@
+{
+  "B_power_norm_upper": {
+    "128": 0.028466949746923733,
+    "16": 5.260541269146378,
+    "32": 2.435387333450827,
+    "64": 0.8049673605118082
+  },
+  "E_projection_explicit": true,
+  "F_power_norm_upper": {
+    "128": 4.894793558939589,
+    "16": 270.73710017999167,
+    "256": 0.042039585528194964,
+    "32": 115.48203240577564,
+    "64": 54.04170654738743
+  },
+  "M24_max_radius_float": 1.0984300396721636e-15,
+  "certified_center_archive_sha256": "a831bcc0d24d0b35db8213b39cadf7eed43a7364ed81d27a68998115bce612f0",
+  "dual_sign_certified": false,
+  "elapsed_seconds": 0.09188670001458377,
+  "generated_utc": "2026-09-27T08:54:35.260078+00:00",
+  "green_interval_archive_sha256": "ba301133c71d4bfd0d39c691e675d17b6fcff4a513a2eabe210c6b4a4d51df9c",
+  "green_intervals_constructed": true,
+  "krawczyk_inclusion_verified": true,
+  "power_contraction_verified": true,
+  "power_norm_upper": {
+    "B": {
+      "128": 0.028466949746923733,
+      "16": 5.260541269146378,
+      "32": 2.435387333450827,
+      "64": 0.8049673605118082
+    },
+    "F": {
+      "128": 4.894793558939589,
+      "16": 270.73710017999167,
+      "256": 0.042039585528194964,
+      "32": 115.48203240577564,
+      "64": 54.04170654738743
+    }
+  },
+  "q24_max_radius_float": 6.650425641966089e-16,
+  "raw_equivalent_source_graph_residual_contains_zero": true,
+  "raw_row_elimination_structural_identity_enclosed": true,
+  "scientific_impossibility_proven": false,
+  "scope": "VALIDATION_ONLY_E_AWARE_SOURCE_GREEN_INTERVAL_V4",
+  "semantic_mode": "analytic_exact_decimal_YAML_theta39_box_exp120",
+  "source_binary64_semantics_included": false,
+  "source_sha256": {
+    "incoming": "445f5bb814e33479c5697bb5f702c0b44faa8f63b465bd505d72f055a034f7d3",
+    "krawczyk": "c95eff0bcf3faf4c91f62cac5cd1e046b5fb83556ba0657d39ea3ff1976bd048",
+    "row_partition": "e9c39582a16993439ed9d72938eb953e3d33c7595c06b9f9b44cdf395eae86eb",
+    "runner": "c34849ef691dadc2bf955263c0e402621b8e1911517f004a84211c4acf3153e2",
+    "source_archive": "a764ca352ca91a508078e6783a87df28a0f74f54ab2797ba5889c822a7eb78ef",
+    "source_report": "75b2a62552e268dc741a38599e313ff9c2cfcdd1925b5f1308a23e1f2a3997e1"
+  },
+  "stage": "COMPLETE_INTERVAL_BRIDGE"
+}
