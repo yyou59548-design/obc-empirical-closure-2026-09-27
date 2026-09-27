@@ -1,0 +1,20 @@
+{
+  "scope": "READ_ONLY_INDEPENDENT_V4_THETA39_ADVERSARIAL_AUDIT_WITH_V5_AND_FUBINI_ADDENDA",
+  "endpoint_result": false,
+  "scientific_impossibility_proven": false,
+  "files_sha256": {
+    "REPORT.md": "0d46161c3abbaa7f904c49be41a9ae0bed6b7b092bd026930c6735b60e4f68ec",
+    "audit_v4_manifest.py": "9f5ab4c777b7be38a79771681b0f2aee306d5068bb8ab74dfa8ddebfe5edb730",
+    "audit_theta_interval_noncollapse.py": "7b5c719ba11ce8e869d43d5106c673d8aa8fc6211e1ab62404ecd10809e572d4",
+    "audit_addenda.py": "3ccca4cf74c280919fed5f665c33ad8fdeb6261a6cb365487f14f911b753e16e",
+    "manifest_independent_summary.json": "463ac4f2d64b98657ae06e08fa872e9752849afa6aa1d553ee781496e81be62d",
+    "noncollapse_summary.json": "93f524accb5b991fc48c44ef64f9511c486ce82973965eca4d6f03591006ccef",
+    "addenda_summary.json": "eac20b6f575d3ddc145d71ce6196e821dedaf773c2f576c836e844de13b732c6"
+  },
+  "upstream_addenda_sha256": {
+    "v4_bounded_wedge_report": "18fc1b7cecb6fc1f3ae31c300a1203b54067503ab7f6d563a7ea6e8ae64911b9",
+    "v5_historical_FT_support_report": "9d0cbdc2ab83f162503e9aaae0fe6edbdfb400d559cda17ee7aa01277230cd87",
+    "v4_initial_law_orientation_erratum": "578102a144c3e2dfd6861672938eb243b69a8883ad85ec8db4a46778ea518930",
+    "v3_binary_provenance_erratum": "01925a93769e7bf3af26bfc975a440f1aeaa52a050781693868f8fda10ba2d18"
+  }
+}
