@@ -1,0 +1,44 @@
+{
+  "analytic_xbar_contains_implementation": false,
+  "arb_precision_bits": 256,
+  "coefficient_mode": "analytic_theta39_box_exp120",
+  "constraint_and_raw_pencil_interval_enclosed_given_source_semantics": true,
+  "exact_source_literal_semantics_proven": false,
+  "frozen_fast0_mask_ambiguous_columns": [],
+  "frozen_fast0_mask_mismatch_columns": [],
+  "generated_utc": "2026-09-27T08:54:08.970856+00:00",
+  "interval_archive": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\auxiliary_v4_source_primitive_arb_analytic_theta39_box_exp120_v4\\primitive_interval_sparse.json.gz",
+  "interval_archive_sha256": "a764ca352ca91a508078e6783a87df28a0f74f54ab2797ba5889c822a7eb78ef",
+  "krawczyk_inclusion_verified": false,
+  "max_abs_analytic_mid_to_capture_on_misses": 4.440892098500626e-16,
+  "primitive_shapes": {
+    "A": [
+      55,
+      56
+    ],
+    "B": [
+      55,
+      56
+    ],
+    "C": [
+      55,
+      56
+    ],
+    "D": [
+      55,
+      8
+    ]
+  },
+  "python_flint_version": "0.9.0",
+  "raw_pencil_analytic_intervals_missing_implementation_before_hull": 83,
+  "raw_pencil_max_abs_analytic_mid_to_implementation_on_misses": 4.440892098500626e-16,
+  "scientific_impossibility_proven": false,
+  "scope": "VALIDATION_ONLY_SOURCE_TO_PRIMITIVE_ARB_INTERVAL_PILOT",
+  "source_analytic_intervals_missing_capture_before_hull": 83,
+  "source_sha256": {
+    "capture": "0951396abd8cd091dd6267c836b4121ab170b13025eff0f300f927da354b5a2a",
+    "meta": "b371d3016bd46daa2de99227d80c6cef0671e93221e508ff62e2325fa3cbd3e6",
+    "runner": "ac53f3ea40967a5f7771b1b202545cbc3e73c3e4d6e2532bdb8aa614ab313b44",
+    "theta_box_report": "564ce832e7a7c0d523eade390b4bb3f767695a23f8d3553982f7d488ca283bde"
+  }
+}
