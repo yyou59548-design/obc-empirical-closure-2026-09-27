@@ -1,0 +1,188 @@
+{
+  "schema_version": "obc_github_release_split_v1",
+  "created_utc": "2026-09-27T09:52:03.697483+00:00",
+  "archive_name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip",
+  "archive_bytes": 6256736190,
+  "archive_sha256": "649301cf72692f17515989406cbc017f117af8694aa9eabe34b3895e4844912d",
+  "split_bytes": 256000000,
+  "part_count": 25,
+  "parts": [
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part001-of-025",
+      "bytes": 256000000,
+      "sha256": "d719cb3ba7ee6ee213be4fec80ffca1bad06e6cd90d3f4398845b502126d27c9",
+      "sequence": 1
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part002-of-025",
+      "bytes": 256000000,
+      "sha256": "2980c75b07bdb5efa5155325b6ac30889b280f7d8f46c707611eef6aa9386ebb",
+      "sequence": 2
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part003-of-025",
+      "bytes": 256000000,
+      "sha256": "387d974a81b3c617f84ec22fecee2b5653fb9d8d51d59df4ae950a97e3af6dea",
+      "sequence": 3
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part004-of-025",
+      "bytes": 256000000,
+      "sha256": "e782272f720139267d822a24d0dbd272f0304b0a8e64cf0383dc7c468dbaa72e",
+      "sequence": 4
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part005-of-025",
+      "bytes": 256000000,
+      "sha256": "e31b2ed8354c7dea97e8ee33b3514d1bc758e30aa2245b70e362d147c96f51a3",
+      "sequence": 5
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part006-of-025",
+      "bytes": 256000000,
+      "sha256": "50f92418d220be286357050db7a75610ed63685603770392478cde946c6e2334",
+      "sequence": 6
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part007-of-025",
+      "bytes": 256000000,
+      "sha256": "1f6e230a1139bf4f0682056a24b84780d09ca257d07b801754049a2d71a38194",
+      "sequence": 7
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part008-of-025",
+      "bytes": 256000000,
+      "sha256": "9acaa9d202fab03f2d9d62e6d5682b4be1ddfecea2e60a132442661d6ef955fa",
+      "sequence": 8
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part009-of-025",
+      "bytes": 256000000,
+      "sha256": "83f32a8c4a3fa91b0175e9cb0cbc2f0152ca2ee1374a50b1e722239fbe908e54",
+      "sequence": 9
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part010-of-025",
+      "bytes": 256000000,
+      "sha256": "8e0342bcf05c0bb22e2828bba91f6d86ff174ffa95af04ef405fb1131a360f2a",
+      "sequence": 10
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part011-of-025",
+      "bytes": 256000000,
+      "sha256": "0e2258532a0b2345da4b0f3ec3fe6d6c66e16a75a51f905edb859f729f998a83",
+      "sequence": 11
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part012-of-025",
+      "bytes": 256000000,
+      "sha256": "454b87de1905b7a06804671d54ed2c08edca856054012288a621de186b0420b4",
+      "sequence": 12
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part013-of-025",
+      "bytes": 256000000,
+      "sha256": "f9764cb0adf88f337d7f9806e4990c0fc2c85643a2dbdba92575c1d8070a2fe2",
+      "sequence": 13
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part014-of-025",
+      "bytes": 256000000,
+      "sha256": "a54bc29d75726d2130d47d66429d783384bce140a11b69d28aefc793568e7dfb",
+      "sequence": 14
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part015-of-025",
+      "bytes": 256000000,
+      "sha256": "22578e30d1eef9524d693adb41e68a072daa982ba49d98d07865302baeb9f0f2",
+      "sequence": 15
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part016-of-025",
+      "bytes": 256000000,
+      "sha256": "d902665630519d5430b0fe95818dc7fcbe2f8759e71d71d5cd3fcf206dbdfceb",
+      "sequence": 16
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part017-of-025",
+      "bytes": 256000000,
+      "sha256": "da85a954584187eec6bd0f873b3e5a451e70f3a6bdd1eaa7ad073ca066be141a",
+      "sequence": 17
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part018-of-025",
+      "bytes": 256000000,
+      "sha256": "f457189cbebe631e5e2546e648cbd414ac1fe489b49a8ad46d7ae89401835912",
+      "sequence": 18
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part019-of-025",
+      "bytes": 256000000,
+      "sha256": "fc2e4c6799c290b0d922f44d1faf840a31868694a0b9620ef26345f4f6b1eb5a",
+      "sequence": 19
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part020-of-025",
+      "bytes": 256000000,
+      "sha256": "ebf21aaeb9584ca230663a4d2835ac0b0f15699d955e5ccead49580f45c39e34",
+      "sequence": 20
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part021-of-025",
+      "bytes": 256000000,
+      "sha256": "95a84d9c080bd795ead173e0bb49c826dd0184a7f69ff198f24c36dcbdbd7cd9",
+      "sequence": 21
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part022-of-025",
+      "bytes": 256000000,
+      "sha256": "fe38946aea22afe3105842f736dffca2a6ecbfb174a00d5b9eb9ca82b01ca6fd",
+      "sequence": 22
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part023-of-025",
+      "bytes": 256000000,
+      "sha256": "efadb9721e66fd4361d9b4150edc3aaec46ac3fae61e4e14ea32a755ea91c986",
+      "sequence": 23
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part024-of-025",
+      "bytes": 256000000,
+      "sha256": "c5955cb6dea3164618b3f66a9331193c33fa36a54f385af57bb0b6248d1b1c71",
+      "sequence": 24
+    },
+    {
+      "name": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part025-of-025",
+      "bytes": 112736190,
+      "sha256": "0b296f4fc87b17293e76fee54a2dea1d4ad690654e435ec23b6fb06e3f80059a",
+      "sequence": 25
+    }
+  ],
+  "restore_order": [
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part001-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part002-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part003-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part004-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part005-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part006-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part007-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part008-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part009-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part010-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part011-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part012-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part013-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part014-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part015-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part016-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part017-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part018-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part019-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part020-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part021-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part022-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part023-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part024-of-025",
+    "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part025-of-025"
+  ]
+}
