@@ -1,0 +1,953 @@
+{
+  "schema_version": "obc_mandatory_gate_ledger_v1",
+  "scope": "INDEPENDENT_FAIL_CLOSED_GATE_AUDIT_NO_FINALIZER",
+  "generated_utc": "2026-09-27T09:17:25.146754+00:00",
+  "acceptance_gates_path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_fresh_20260926_202630\\OBC_CODEX_FULL_EMPIRICAL_CLOSURE_TASK_20260926\\ACCEPTANCE_GATES.json",
+  "acceptance_gates_sha256": "e9658f20597d527682f6a386a6112847ed67935ab131d0727ce019b4cc9d94d4",
+  "interim_status_path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_fresh_20260926_202630\\OBC_CODEX_FULL_EMPIRICAL_CLOSURE_TASK_20260926\\OUTPUT\\final_status.json",
+  "interim_status_sha256": "74763e00c26e81f72394fed2254077cef6cfe62f97f0e9ddf6cbf7214d0e5e7d",
+  "ledger_builder_path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\scripts\\build_mandatory_gate_ledger_v1.py",
+  "ledger_builder_sha256": "5f39f9b7f39a2d620681fbfc6bf9559ee4a411c7b1dafb111a91f47aff5293ac",
+  "leaf_count": 49,
+  "mandatory_leaf_count": 42,
+  "mandatory_passed_count": 0,
+  "all_mandatory_passed": false,
+  "paper_ready_observed": false,
+  "scientific_impossibility_proven_observed": true,
+  "coarse_overview_is_authoritative": false,
+  "qualification_rule": "PASS requires evidence for the same frozen final numerical target and, where specified, qualified endpoint production draws; validation-only controls never fill endpoint gates.",
+  "document_only_requirements_not_merged_into_acceptance_keys": {
+    "nonlinear_simulate_estimate_recover": {
+      "required_by": [
+        "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_fresh_20260926_202630\\OBC_CODEX_FULL_EMPIRICAL_CLOSURE_TASK_20260926\\START_HERE_CN.md",
+        "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_fresh_20260926_202630\\OBC_CODEX_FULL_EMPIRICAL_CLOSURE_TASK_20260926\\CODEX_MASTER_TASK.md"
+      ],
+      "complete": false,
+      "note": "Phase I is required in both task documents, although ACCEPTANCE_GATES.json has no separate simulation-recovery leaf."
+    },
+    "high_fidelity_correction_evidence": {
+      "required_by": [
+        "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_fresh_20260926_202630\\OBC_CODEX_FULL_EMPIRICAL_CLOSURE_TASK_20260926\\START_HERE_CN.md",
+        "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_fresh_20260926_202630\\OBC_CODEX_FULL_EMPIRICAL_CLOSURE_TASK_20260926\\CODEX_MASTER_TASK.md"
+      ],
+      "complete": false,
+      "note": "Phase D remains unfulfilled; no frozen high-fidelity nonlinear posterior exists to correct or certify."
+    }
+  },
+  "records": [
+    {
+      "acceptance_key": "target_certification.joint_random_design_unit_tests",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        }
+      ],
+      "reason": "Named component controls pass, but no frozen single-Gaussian nonlinear target has passed all numerical and solver gates. Component tests cannot certify a different target."
+    },
+    {
+      "acceptance_key": "target_certification.endpoint_prefix_identity_max_abs_error",
+      "requirement": 1e-10,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        }
+      ],
+      "reason": "Named component controls pass, but no frozen single-Gaussian nonlinear target has passed all numerical and solver gates. Component tests cannot certify a different target."
+    },
+    {
+      "acceptance_key": "target_certification.score_unit_equivariance_pass",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        }
+      ],
+      "reason": "Named component controls pass, but no frozen single-Gaussian nonlinear target has passed all numerical and solver gates. Component tests cannot certify a different target."
+    },
+    {
+      "acceptance_key": "target_certification.linear_limit_against_exact_kalman_max_abs_loglik_error",
+      "requirement": 1e-08,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        }
+      ],
+      "reason": "An independent exact-Kalman oracle and some candidate controls pass, but the original finite-N EnKF score fails its linear limit and no final nonlinear target is frozen."
+    },
+    {
+      "acceptance_key": "target_certification.grouped_vs_reference_max_abs_loglik_error",
+      "requirement": 1e-09,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        }
+      ],
+      "reason": "Named component controls pass, but no frozen single-Gaussian nonlinear target has passed all numerical and solver gates. Component tests cannot certify a different target."
+    },
+    {
+      "acceptance_key": "target_certification.no_silent_solver_failure_in_retained_draws",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\two_scramble_solver_guard_tests_v1.json",
+          "exists": true,
+          "sha256": "1485cc8e473cb1f1d6b06e1d2707886812827a6f5ae9b4279645dc7e4018e362"
+        }
+      ],
+      "reason": "A validation-only fail-closed guard is tested; there are no qualified production retained draws on which to assess silent solver failure."
+    },
+    {
+      "acceptance_key": "target_certification.relative_log_density_N_doubling.posterior_relevant_states_required",
+      "requirement": 50,
+      "classification": "mandatory",
+      "status": "FAILED_TESTED_CANDIDATES_FINAL_TARGET_PENDING",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\n_sensitivity_summary_k32_v1.json",
+          "exists": true,
+          "sha256": "2d3319c56433f9314e39691155d472cf28d9db7ee437abb28ef9d5ba6e5de54f"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\moment_control_ndoubling_v1_1\\summary.json",
+          "exists": true,
+          "sha256": "edf7d20fe179c053a26c96758ef532f8a75dc17201965fb9118aa2eee0060e5d"
+        }
+      ],
+      "reason": "Completed candidate grids failed at least one prespecified relative-density threshold; the final target and its 50-state-per-endpoint N/2N grid are not certified."
+    },
+    {
+      "acceptance_key": "target_certification.relative_log_density_N_doubling.median_abs_change_target",
+      "requirement": 0.1,
+      "classification": "mandatory",
+      "status": "FAILED_TESTED_CANDIDATES_FINAL_TARGET_PENDING",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\n_sensitivity_summary_k32_v1.json",
+          "exists": true,
+          "sha256": "2d3319c56433f9314e39691155d472cf28d9db7ee437abb28ef9d5ba6e5de54f"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\moment_control_ndoubling_v1_1\\summary.json",
+          "exists": true,
+          "sha256": "edf7d20fe179c053a26c96758ef532f8a75dc17201965fb9118aa2eee0060e5d"
+        }
+      ],
+      "reason": "Completed candidate grids failed at least one prespecified relative-density threshold; the final target and its 50-state-per-endpoint N/2N grid are not certified."
+    },
+    {
+      "acceptance_key": "target_certification.relative_log_density_N_doubling.p95_abs_change_target",
+      "requirement": 0.5,
+      "classification": "mandatory",
+      "status": "FAILED_TESTED_CANDIDATES_FINAL_TARGET_PENDING",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\n_sensitivity_summary_k32_v1.json",
+          "exists": true,
+          "sha256": "2d3319c56433f9314e39691155d472cf28d9db7ee437abb28ef9d5ba6e5de54f"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\moment_control_ndoubling_v1_1\\summary.json",
+          "exists": true,
+          "sha256": "edf7d20fe179c053a26c96758ef532f8a75dc17201965fb9118aa2eee0060e5d"
+        }
+      ],
+      "reason": "Completed candidate grids failed at least one prespecified relative-density threshold; the final target and its 50-state-per-endpoint N/2N grid are not certified."
+    },
+    {
+      "acceptance_key": "target_certification.relative_log_density_N_doubling.max_abs_change_target",
+      "requirement": 1.0,
+      "classification": "mandatory",
+      "status": "FAILED_TESTED_CANDIDATES_FINAL_TARGET_PENDING",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\fixed_kalman_gain_gaussian_sqrt_probe_v2\\summary.json",
+          "exists": true,
+          "sha256": "6a5b7e352942c42cf55a5e2148238959e2101d52a362c75ae06451d0009d10f2"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\n_sensitivity_summary_k32_v1.json",
+          "exists": true,
+          "sha256": "2d3319c56433f9314e39691155d472cf28d9db7ee437abb28ef9d5ba6e5de54f"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\moment_control_ndoubling_v1_1\\summary.json",
+          "exists": true,
+          "sha256": "edf7d20fe179c053a26c96758ef532f8a75dc17201965fb9118aa2eee0060e5d"
+        }
+      ],
+      "reason": "Completed candidate grids failed at least one prespecified relative-density threshold; the final target and its 50-state-per-endpoint N/2N grid are not certified."
+    },
+    {
+      "acceptance_key": "target_certification.relative_log_density_N_doubling.action_if_failed",
+      "requirement": "increase N and/or change certified numerical integration design; do not start final production",
+      "classification": "instruction_not_gate",
+      "status": "NOT_A_GATE",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "Prespecified action, not a numerical acceptance test."
+    },
+    {
+      "acceptance_key": "posterior_each_endpoint.cold_chains_min",
+      "requirement": 4,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        }
+      ],
+      "reason": "Fresh four-chain pilots are explicitly VALIDATION_ONLY and fail mixing; no production kernel or high-fidelity target is certified.",
+      "per_endpoint": {
+        "2007Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2009Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2019Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        }
+      }
+    },
+    {
+      "acceptance_key": "posterior_each_endpoint.max_rank_rhat",
+      "requirement": 1.01,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        }
+      ],
+      "reason": "Fresh four-chain pilots are explicitly VALIDATION_ONLY and fail mixing; no production kernel or high-fidelity target is certified.",
+      "per_endpoint": {
+        "2007Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2009Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2019Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        }
+      }
+    },
+    {
+      "acceptance_key": "posterior_each_endpoint.min_bulk_ess",
+      "requirement": 400,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        }
+      ],
+      "reason": "Fresh four-chain pilots are explicitly VALIDATION_ONLY and fail mixing; no production kernel or high-fidelity target is certified.",
+      "per_endpoint": {
+        "2007Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2009Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2019Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        }
+      }
+    },
+    {
+      "acceptance_key": "posterior_each_endpoint.min_tail_ess",
+      "requirement": 400,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        }
+      ],
+      "reason": "Fresh four-chain pilots are explicitly VALIDATION_ONLY and fail mixing; no production kernel or high-fidelity target is certified.",
+      "per_endpoint": {
+        "2007Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2009Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2019Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        }
+      }
+    },
+    {
+      "acceptance_key": "posterior_each_endpoint.full_last_two_thirds_last_half_stability_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        }
+      ],
+      "reason": "Fresh four-chain pilots are explicitly VALIDATION_ONLY and fail mixing; no production kernel or high-fidelity target is certified.",
+      "per_endpoint": {
+        "2007Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2009Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2019Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        }
+      }
+    },
+    {
+      "acceptance_key": "posterior_each_endpoint.current_state_exact_density_cache_max_abs_error",
+      "requirement": 1e-08,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        }
+      ],
+      "reason": "Fresh four-chain pilots are explicitly VALIDATION_ONLY and fail mixing; no production kernel or high-fidelity target is certified.",
+      "per_endpoint": {
+        "2007Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2009Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2019Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        }
+      }
+    },
+    {
+      "acceptance_key": "posterior_each_endpoint.sampler_adaptation_after_production_start",
+      "requirement": false,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        }
+      ],
+      "reason": "Fresh four-chain pilots are explicitly VALIDATION_ONLY and fail mixing; no production kernel or high-fidelity target is certified.",
+      "per_endpoint": {
+        "2007Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2009Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2019Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        }
+      }
+    },
+    {
+      "acceptance_key": "posterior_each_endpoint.economic_function_mcse_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\phase_a_controls.json",
+          "exists": true,
+          "sha256": "63d47659465ad9f7481ba43440bec1a50f5abce7dacc4808b99c2ac5f1d13a72"
+        }
+      ],
+      "reason": "Fresh four-chain pilots are explicitly VALIDATION_ONLY and fail mixing; no production kernel or high-fidelity target is certified.",
+      "per_endpoint": {
+        "2007Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2009Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        },
+        "2019Q4": {
+          "status": "PENDING_NO_QUALIFIED_PRODUCTION_CHAIN",
+          "passes": false,
+          "observed": null
+        }
+      }
+    },
+    {
+      "acceptance_key": "importance_bridge_if_used.source_posterior_must_first_pass_posterior_gate",
+      "requirement": true,
+      "classification": "conditional_bridge_gate",
+      "status": "NOT_APPLICABLE_YET",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "No final importance bridge is selected or qualified. Re-evaluate if used."
+    },
+    {
+      "acceptance_key": "importance_bridge_if_used.pareto_k_preferred_max",
+      "requirement": 0.7,
+      "classification": "conditional_preference",
+      "status": "NOT_APPLICABLE_YET",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "No final importance bridge is selected or qualified. Re-evaluate if used."
+    },
+    {
+      "acceptance_key": "importance_bridge_if_used.pareto_k_hard_fail",
+      "requirement": 1.0,
+      "classification": "conditional_bridge_gate",
+      "status": "NOT_APPLICABLE_YET",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "No final importance bridge is selected or qualified. Re-evaluate if used."
+    },
+    {
+      "acceptance_key": "importance_bridge_if_used.weight_ess_min",
+      "requirement": 400,
+      "classification": "conditional_bridge_gate",
+      "status": "NOT_APPLICABLE_YET",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "No final importance bridge is selected or qualified. Re-evaluate if used."
+    },
+    {
+      "acceptance_key": "importance_bridge_if_used.headline_function_mcse_required",
+      "requirement": true,
+      "classification": "conditional_bridge_gate",
+      "status": "NOT_APPLICABLE_YET",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "No final importance bridge is selected or qualified. Re-evaluate if used."
+    },
+    {
+      "acceptance_key": "importance_bridge_if_used.action_if_failed",
+      "requirement": "use exact delayed acceptance/SMC/other target-preserving method",
+      "classification": "instruction_not_gate",
+      "status": "NOT_A_GATE",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "Prespecified action, not a numerical acceptance test."
+    },
+    {
+      "acceptance_key": "smoothing_replay.theta_conditional_reextraction_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_draws_v3_long\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "21711640fe87f3504e89bf0f3988d60d2e48d914e1f5145ff83c672075ea5534"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_tempered_conditional_v1_pilot\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "5fb3612b709e5c1da9e56695fcab2017d7ffbc1836f6062a6f712b33d202a4ab"
+        }
+      ],
+      "reason": "Fixed-theta validation paths exist, but they do not mix and are not conditional on qualified endpoint theta draws."
+    },
+    {
+      "acceptance_key": "smoothing_replay.old_residual_cross_pairing_forbidden",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_draws_v3_long\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "21711640fe87f3504e89bf0f3988d60d2e48d914e1f5145ff83c672075ea5534"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_tempered_conditional_v1_pilot\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "5fb3612b709e5c1da9e56695fcab2017d7ffbc1836f6062a6f712b33d202a4ab"
+        }
+      ],
+      "reason": "Fixed-theta validation paths exist, but they do not mix and are not conditional on qualified endpoint theta draws."
+    },
+    {
+      "acceptance_key": "smoothing_replay.all_failures_recorded",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_draws_v3_long\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "21711640fe87f3504e89bf0f3988d60d2e48d914e1f5145ff83c672075ea5534"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_tempered_conditional_v1_pilot\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "5fb3612b709e5c1da9e56695fcab2017d7ffbc1836f6062a6f712b33d202a4ab"
+        }
+      ],
+      "reason": "Fixed-theta validation paths exist, but they do not mix and are not conditional on qualified endpoint theta draws."
+    },
+    {
+      "acceptance_key": "smoothing_replay.zero_fill_failures_forbidden",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_draws_v3_long\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "21711640fe87f3504e89bf0f3988d60d2e48d914e1f5145ff83c672075ea5534"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_tempered_conditional_v1_pilot\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "5fb3612b709e5c1da9e56695fcab2017d7ffbc1836f6062a6f712b33d202a4ab"
+        }
+      ],
+      "reason": "Fixed-theta validation paths exist, but they do not mix and are not conditional on qualified endpoint theta draws."
+    },
+    {
+      "acceptance_key": "smoothing_replay.primary_smoothing_endpoint",
+      "requirement": "2019Q4",
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_draws_v3_long\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "21711640fe87f3504e89bf0f3988d60d2e48d914e1f5145ff83c672075ea5534"
+        },
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\smoother_tempered_conditional_v1_pilot\\finite_chain_diagnostics_VALIDATION_ONLY.json",
+          "exists": true,
+          "sha256": "5fb3612b709e5c1da9e56695fcab2017d7ffbc1836f6062a6f712b33d202a4ab"
+        }
+      ],
+      "reason": "Fixed-theta validation paths exist, but they do not mix and are not conditional on qualified endpoint theta draws."
+    },
+    {
+      "acceptance_key": "attribution.exact_all_coalitions_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\coalition_fresh_draw_v1_VALIDATION_ONLY\\validation_report.json",
+          "exists": true,
+          "sha256": "20cb4cdd10de342a4d5378a5576572e7c1c389fdfd966e9ef3b4cfeea9e71478"
+        }
+      ],
+      "reason": "The 256-coalition and two-Shapley code test used one uncertified fixed-theta draw; it is not endpoint attribution."
+    },
+    {
+      "acceptance_key": "attribution.two_independent_shapley_calculations_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\coalition_fresh_draw_v1_VALIDATION_ONLY\\validation_report.json",
+          "exists": true,
+          "sha256": "20cb4cdd10de342a4d5378a5576572e7c1c389fdfd966e9ef3b4cfeea9e71478"
+        }
+      ],
+      "reason": "The 256-coalition and two-Shapley code test used one uncertified fixed-theta draw; it is not endpoint attribution."
+    },
+    {
+      "acceptance_key": "attribution.efficiency_identity_max_abs_error",
+      "requirement": 1e-10,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\coalition_fresh_draw_v1_VALIDATION_ONLY\\validation_report.json",
+          "exists": true,
+          "sha256": "20cb4cdd10de342a4d5378a5576572e7c1c389fdfd966e9ef3b4cfeea9e71478"
+        }
+      ],
+      "reason": "The 256-coalition and two-Shapley code test used one uncertified fixed-theta draw; it is not endpoint attribution."
+    },
+    {
+      "acceptance_key": "attribution.failure_selection_audit_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\coalition_fresh_draw_v1_VALIDATION_ONLY\\validation_report.json",
+          "exists": true,
+          "sha256": "20cb4cdd10de342a4d5378a5576572e7c1c389fdfd966e9ef3b4cfeea9e71478"
+        }
+      ],
+      "reason": "The 256-coalition and two-Shapley code test used one uncertified fixed-theta draw; it is not endpoint attribution."
+    },
+    {
+      "acceptance_key": "attribution.headline_function_mcse_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [
+        {
+          "path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\coalition_fresh_draw_v1_VALIDATION_ONLY\\validation_report.json",
+          "exists": true,
+          "sha256": "20cb4cdd10de342a4d5378a5576572e7c1c389fdfd966e9ef3b4cfeea9e71478"
+        }
+      ],
+      "reason": "The 256-coalition and two-Shapley code test used one uncertified fixed-theta draw; it is not endpoint attribution."
+    },
+    {
+      "acceptance_key": "learning_decomposition.a0",
+      "requirement": "2007Q4",
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "The endpoint labels and mean formula are prespecified, but no qualified F00/F10/F01/F11 endpoint functions or additive-identity audit exist."
+    },
+    {
+      "acceptance_key": "learning_decomposition.a1",
+      "requirement": "2019Q4",
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "The endpoint labels and mean formula are prespecified, but no qualified F00/F10/F01/F11 endpoint functions or additive-identity audit exist."
+    },
+    {
+      "acceptance_key": "learning_decomposition.b0",
+      "requirement": "2009Q4",
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "The endpoint labels and mean formula are prespecified, but no qualified F00/F10/F01/F11 endpoint functions or additive-identity audit exist."
+    },
+    {
+      "acceptance_key": "learning_decomposition.b1",
+      "requirement": "2019Q4",
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "The endpoint labels and mean formula are prespecified, but no qualified F00/F10/F01/F11 endpoint functions or additive-identity audit exist."
+    },
+    {
+      "acceptance_key": "learning_decomposition.mean_identity_max_abs_error",
+      "requirement": 1e-10,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "The endpoint labels and mean formula are prespecified, but no qualified F00/F10/F01/F11 endpoint functions or additive-identity audit exist."
+    },
+    {
+      "acceptance_key": "learning_decomposition.median_additivity_must_not_be_assumed",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "PENDING_FINAL_EVIDENCE",
+      "passes": false,
+      "observed": null,
+      "evidence": [],
+      "reason": "The endpoint labels and mean formula are prespecified, but no qualified F00/F10/F01/F11 endpoint functions or additive-identity audit exist."
+    },
+    {
+      "acceptance_key": "paper_ready.qualified_nonlinear_posteriors_required",
+      "requirement": 3,
+      "classification": "mandatory",
+      "status": "FAIL_CURRENT_STATUS",
+      "passes": false,
+      "observed": 0,
+      "evidence": [],
+      "reason": "Current interim final_status.json explicitly leaves this required aggregate unpassed."
+    },
+    {
+      "acceptance_key": "paper_ready.target_certified_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "FAIL_CURRENT_STATUS",
+      "passes": false,
+      "observed": false,
+      "evidence": [],
+      "reason": "Current interim final_status.json explicitly leaves this required aggregate unpassed."
+    },
+    {
+      "acceptance_key": "paper_ready.smoothing_complete_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "FAIL_CURRENT_STATUS",
+      "passes": false,
+      "observed": false,
+      "evidence": [],
+      "reason": "Current interim final_status.json explicitly leaves this required aggregate unpassed."
+    },
+    {
+      "acceptance_key": "paper_ready.attribution_complete_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "FAIL_CURRENT_STATUS",
+      "passes": false,
+      "observed": false,
+      "evidence": [],
+      "reason": "Current interim final_status.json explicitly leaves this required aggregate unpassed."
+    },
+    {
+      "acceptance_key": "paper_ready.learning_decomposition_complete_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "FAIL_CURRENT_STATUS",
+      "passes": false,
+      "observed": false,
+      "evidence": [],
+      "reason": "Current interim final_status.json explicitly leaves this required aggregate unpassed."
+    },
+    {
+      "acceptance_key": "paper_ready.economic_robustness_complete_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "FAIL_CURRENT_STATUS",
+      "passes": false,
+      "observed": false,
+      "evidence": [],
+      "reason": "Current interim final_status.json explicitly leaves this required aggregate unpassed."
+    },
+    {
+      "acceptance_key": "paper_ready.all_headline_cells_non_null",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "FAIL_CURRENT_STATUS",
+      "passes": false,
+      "observed": false,
+      "evidence": [],
+      "reason": "No qualified endpoint_main_results.csv exists."
+    },
+    {
+      "acceptance_key": "paper_ready.reproduction_check_required",
+      "requirement": true,
+      "classification": "mandatory",
+      "status": "FAIL_CURRENT_STATUS",
+      "passes": false,
+      "observed": false,
+      "evidence": [],
+      "reason": "No final one-command reproduction result exists."
+    }
+  ]
+}
