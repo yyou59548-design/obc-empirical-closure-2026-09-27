@@ -1,0 +1,68 @@
+{
+  "note": "These are project-specific pre-specified gates, not universal statistical laws. Do not relax them after seeing economic results.",
+  "target_certification": {
+    "joint_random_design_unit_tests": true,
+    "endpoint_prefix_identity_max_abs_error": 1e-10,
+    "score_unit_equivariance_pass": true,
+    "linear_limit_against_exact_kalman_max_abs_loglik_error": 1e-8,
+    "grouped_vs_reference_max_abs_loglik_error": 1e-9,
+    "no_silent_solver_failure_in_retained_draws": true,
+    "relative_log_density_N_doubling": {
+      "posterior_relevant_states_required": 50,
+      "median_abs_change_target": 0.1,
+      "p95_abs_change_target": 0.5,
+      "max_abs_change_target": 1.0,
+      "action_if_failed": "increase N and/or change certified numerical integration design; do not start final production"
+    }
+  },
+  "posterior_each_endpoint": {
+    "cold_chains_min": 4,
+    "max_rank_rhat": 1.01,
+    "min_bulk_ess": 400,
+    "min_tail_ess": 400,
+    "full_last_two_thirds_last_half_stability_required": true,
+    "current_state_exact_density_cache_max_abs_error": 1e-8,
+    "sampler_adaptation_after_production_start": false,
+    "economic_function_mcse_required": true
+  },
+  "importance_bridge_if_used": {
+    "source_posterior_must_first_pass_posterior_gate": true,
+    "pareto_k_preferred_max": 0.7,
+    "pareto_k_hard_fail": 1.0,
+    "weight_ess_min": 400,
+    "headline_function_mcse_required": true,
+    "action_if_failed": "use exact delayed acceptance/SMC/other target-preserving method"
+  },
+  "smoothing_replay": {
+    "theta_conditional_reextraction_required": true,
+    "old_residual_cross_pairing_forbidden": true,
+    "all_failures_recorded": true,
+    "zero_fill_failures_forbidden": true,
+    "primary_smoothing_endpoint": "2019Q4"
+  },
+  "attribution": {
+    "exact_all_coalitions_required": true,
+    "two_independent_shapley_calculations_required": true,
+    "efficiency_identity_max_abs_error": 1e-10,
+    "failure_selection_audit_required": true,
+    "headline_function_mcse_required": true
+  },
+  "learning_decomposition": {
+    "a0": "2007Q4",
+    "a1": "2019Q4",
+    "b0": "2009Q4",
+    "b1": "2019Q4",
+    "mean_identity_max_abs_error": 1e-10,
+    "median_additivity_must_not_be_assumed": true
+  },
+  "paper_ready": {
+    "qualified_nonlinear_posteriors_required": 3,
+    "target_certified_required": true,
+    "smoothing_complete_required": true,
+    "attribution_complete_required": true,
+    "learning_decomposition_complete_required": true,
+    "economic_robustness_complete_required": true,
+    "all_headline_cells_non_null": true,
+    "reproduction_check_required": true
+  }
+}
