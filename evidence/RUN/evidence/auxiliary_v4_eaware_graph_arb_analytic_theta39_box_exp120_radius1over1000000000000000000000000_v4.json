@@ -1,0 +1,29 @@
+{
+  "E_projection_explicit": true,
+  "center_archive": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_run_20260926_2030\\RUN\\evidence\\auxiliary_v4_eaware_graph_arb_analytic_theta39_box_exp120_radius1over1000000000000000000000000_v4.center.json.gz",
+  "center_archive_sha256": "a831bcc0d24d0b35db8213b39cadf7eed43a7364ed81d27a68998115bce612f0",
+  "elapsed_seconds": 4.045722899958491,
+  "generated_utc": "2026-09-27T08:54:21.048269+00:00",
+  "krawczyk_inclusion_verified": true,
+  "krawczyk_radius_condition": true,
+  "numeric_initial_residual_max_abs": 2.6290081223123707e-13,
+  "numeric_newton_step_max_abs": 1.1924742737008072e-11,
+  "numeric_post_newton_residual_max_abs": 1.2434497875801753e-14,
+  "preconditioned_jacobian_defect_norm_upper": 3.311721637721173e-10,
+  "preconditioned_residual_upper": 4.5807812130863766e-26,
+  "radius": "1/1000000000000000000000000",
+  "refinement_1_residual_upper": 1.24566899297886e-14,
+  "refinement_2_residual_upper": 3.954772627853122e-27,
+  "refinement_3_residual_upper": 4.754540448935167e-28,
+  "scientific_impossibility_proven": false,
+  "scope": "VALIDATION_ONLY_E_AWARE_SOURCE_GRAPH_ARB_KRAWCZYK",
+  "semantic_mode": "analytic_theta39_box_exp120",
+  "source_sha256": {
+    "capture": "0951396abd8cd091dd6267c836b4121ab170b13025eff0f300f927da354b5a2a",
+    "row_partition": "e9c39582a16993439ed9d72938eb953e3d33c7595c06b9f9b44cdf395eae86eb",
+    "runner": "4dc0b12e718e54af6e91b122076d2d333dda1cab5853082ba8f1dd9dd1bcbdcb",
+    "source_archive": "a764ca352ca91a508078e6783a87df28a0f74f54ab2797ba5889c822a7eb78ef",
+    "source_report": "75b2a62552e268dc741a38599e313ff9c2cfcdd1925b5f1308a23e1f2a3997e1"
+  },
+  "stage": "COMPLETE_INTERVAL_TEST"
+}
