@@ -1,0 +1,18 @@
+{
+  "archive": "OBC_ALL_RESULTS_AND_PROCESS_20260927.zip",
+  "archive_bytes": 6256736190,
+  "archive_plan_sha256": "4649737e29eafb9bd625cc1e664014343461746df8b38410fce2b22bd80bd4df",
+  "archive_sha256": "649301cf72692f17515989406cbc017f117af8694aa9eabe34b3895e4844912d",
+  "checkpoint_path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_full_archive_v1\\checkpoint.json",
+  "checksum_journal_sha256": "2e2d21f5de41ff921a946268958daae74ee0329ccf48a98ae87a3c375774b0eb",
+  "created_utc": "2026-09-27T09:41:51.524772+00:00",
+  "full_readback_sha256_verified": true,
+  "packaging_log_path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_full_archive_v1\\archive.log",
+  "paper_ready": false,
+  "schema_version": "obc_complete_archive_outer_manifest_v1",
+  "scientific_impossibility_proven_for_locked_selected_target": true,
+  "source_bytes": 7383699339,
+  "source_file_count": 107697,
+  "verified_source_bytes": 7383699339,
+  "verified_source_file_count": 107697
+}
