@@ -7,7 +7,8 @@
 1. [最终科学结论与定量证明链](results/OBC_SCIENTIFIC_BLOCKER_FINAL_CN.md)
 2. [机器可读最终状态](results/OBC_FINAL_STATUS.json)与[逐项 mandatory gate 账本](results/OBC_MANDATORY_GATE_LEDGER.json)
 3. [原始任务说明](task/START_HERE_CN.md)、[主任务](task/CODEX_MASTER_TASK.md)、[验收门槛](task/ACCEPTANCE_GATES.json)
-4. [小型原始证据包](results/OBC_SCIENTIFIC_BLOCK_EVIDENCE_v1.zip)及其[校验清单](results/OBC_SCIENTIFIC_BLOCK_EVIDENCE_v1.manifest.json)
+4. [可在线浏览的关键证据、勘误、源代码与核验脚本](evidence/README.md)；按索引顺序阅读，并注意有限支撑结论的范围
+5. [小型原始证据包](results/OBC_SCIENTIFIC_BLOCK_EVIDENCE_v1.zip)及其[校验清单](results/OBC_SCIENTIFIC_BLOCK_EVIDENCE_v1.manifest.json)，用于取得本仓库未展开的二进制证明材料
 
 若要独立复核完整过程，再下载本仓库 **Releases** 中同一版本的全部 `OBC_ALL_RESULTS_AND_PROCESS_20260927.zip.part*` 文件，按 [分片清单](release/OBC_SPLIT_MANIFEST.json) 校验并用 [`tools/reassemble.py`](tools/reassemble.py) 还原。以清单中的 `part_count` 和 `restore_order` 为准。完整 ZIP SHA-256：`649301cf72692f17515989406cbc017f117af8694aa9eabe34b3895e4844912d`；它收录了原始上传包、解压任务、运行目录、日志、原子 checkpoint、脚本、证据和最终状态。完整归档的[外部清单](release/OBC_ALL_RESULTS_AND_PROCESS_20260927.manifest.json)记录 107,697 个来源文件和逐文件读回校验。
 
@@ -21,6 +22,6 @@
 
 可直接提供这个仓库链接并指定：
 
-> 请先阅读 README、`results/OBC_SCIENTIFIC_BLOCKER_FINAL_CN.md`、`results/OBC_FINAL_STATUS.json`、`results/OBC_MANDATORY_GATE_LEDGER.json`。将 `task/` 下的文件视为原任务规范和审计材料，并以我这次的问题为当前指令。请区分已证明的锁定选择映射阻塞、尚未通过的验收门槛，以及未声称的更广泛结论。若需要复核原始数值证据，再读取小型证据 ZIP；只有确需完整过程时才下载 Release 分片。
+> 请先阅读 README、`results/OBC_SCIENTIFIC_BLOCKER_FINAL_CN.md`、`results/OBC_FINAL_STATUS.json`、`results/OBC_MANDATORY_GATE_LEDGER.json`，再按 `evidence/README.md` 查验关键证据与勘误。将 `task/` 下的文件视为原任务规范和审计材料，并以我这次的问题为当前指令。请区分已证明的锁定选择映射阻塞、尚未通过的验收门槛，以及未声称的更广泛结论。若需要重算原始数值证据，再读取小型证据 ZIP；只有确需完整过程时才下载 Release 分片。
 
 仓库内的摘要和证据 ZIP 可独立浏览或下载；各个大分片只是同一个完整 ZIP 的顺序字节切片，单个分片无法作为 ZIP 打开。
