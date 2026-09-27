@@ -1,0 +1,1624 @@
+{
+  "all_strict_archive_prior_bounds": true,
+  "all_strict_natural_prior_support": true,
+  "coordinate_checks": [
+    {
+      "archive_lower_ratio": [
+        1,
+        4
+      ],
+      "archive_upper_ratio": [
+        3,
+        1
+      ],
+      "center_binary64_hex": "0x1.423940437e4b4p+0",
+      "center_ratio": [
+        1417154541779245,
+        1125899906842624
+      ],
+      "coordinate": 0,
+      "lower_ratio": [
+        1883721491286716658164025801045078180194122183345875,
+        1496577676626844588240573268701473812127674924007424
+      ],
+      "prior_kind": "normal",
+      "prior_name": "sig_c",
+      "radius_ratio": [
+        1417154541779245,
+        1496577676626844588240573268701473812127674924007424
+      ],
+      "rounding_cell_left_ratio": [
+        11337236334233959,
+        9007199254740992
+      ],
+      "rounding_cell_right_ratio": [
+        11337236334233961,
+        9007199254740992
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1883721491286716658164025801045078183028431266904365,
+        1496577676626844588240573268701473812127674924007424
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        -1,
+        2
+      ],
+      "archive_upper_ratio": [
+        6,
+        1
+      ],
+      "center_binary64_hex": "0x1.4f6fc2a70ce4ap+1",
+      "center_ratio": [
+        2950531219220261,
+        1125899906842624
+      ],
+      "coordinate": 1,
+      "lower_ratio": [
+        3921928699024971779870900270391437007519195901434075,
+        1496577676626844588240573268701473812127674924007424
+      ],
+      "prior_kind": "normal",
+      "prior_name": "sig_l",
+      "radius_ratio": [
+        2950531219220261,
+        1496577676626844588240573268701473812127674924007424
+      ],
+      "rounding_cell_left_ratio": [
+        11802124876881043,
+        4503599627370496
+      ],
+      "rounding_cell_right_ratio": [
+        11802124876881045,
+        4503599627370496
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        3921928699024971779870900270391437013420258339874597,
+        1496577676626844588240573268701473812127674924007424
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        1,
+        1
+      ],
+      "center_binary64_hex": "0x1.5410a91ac20acp-3",
+      "center_ratio": [
+        1495622040094763,
+        9007199254740992
+      ],
+      "coordinate": 2,
+      "lower_ratio": [
+        220714856037019670112513239038296063,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "gamma",
+      "prior_name": "tpr_beta",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        11964976320758103,
+        72057594037927936
+      ],
+      "rounding_cell_right_ratio": [
+        11964976320758105,
+        72057594037927936
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        220714856037019670112513239038296065,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5404319552844595,
+        18014398509481984
+      ],
+      "archive_upper_ratio": [
+        4278419646001971,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.16bdd03e52c34p-1",
+      "center_ratio": [
+        1225917900344077,
+        2251799813685248
+      ],
+      "coordinate": 3,
+      "lower_ratio": [
+        723654200416849890805698809324109823,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "h",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        9807343202752615,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        9807343202752617,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        723654200416849890805698809324109825,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        2,
+        1
+      ],
+      "archive_upper_ratio": [
+        12,
+        1
+      ],
+      "center_binary64_hex": "0x1.4b0c0298ddac4p+1",
+      "center_ratio": [
+        1455959727896241,
+        562949953421312
+      ],
+      "coordinate": 4,
+      "lower_ratio": [
+        1935302431055071893201262411593623974395647327242575,
+        748288838313422294120286634350736906063837462003712
+      ],
+      "prior_kind": "normal",
+      "prior_name": "phiss",
+      "radius_ratio": [
+        1455959727896241,
+        748288838313422294120286634350736906063837462003712
+      ],
+      "rounding_cell_left_ratio": [
+        11647677823169927,
+        4503599627370496
+      ],
+      "rounding_cell_right_ratio": [
+        11647677823169929,
+        4503599627370496
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1935302431055071893201262411593623977307566783035057,
+        748288838313422294120286634350736906063837462003712
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        8106479329266893,
+        9007199254740992
+      ],
+      "center_binary64_hex": "0x1.136667c9ef543p-2",
+      "center_ratio": [
+        4844888409437507,
+        18014398509481984
+      ],
+      "coordinate": 5,
+      "lower_ratio": [
+        357489666218301711665608254971445247,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "i_p",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        9689776818875013,
+        36028797018963968
+      ],
+      "rounding_cell_right_ratio": [
+        9689776818875015,
+        36028797018963968
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        357489666218301711665608254971445249,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        8106479329266893,
+        9007199254740992
+      ],
+      "center_binary64_hex": "0x1.3b02b1780d602p-1",
+      "center_ratio": [
+        2770861840952065,
+        4503599627370496
+      ],
+      "coordinate": 6,
+      "lower_ratio": [
+        817814067898407091405136283188592639,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "i_w",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        11083447363808259,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        11083447363808261,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        817814067898407091405136283188592641,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        3602879701896397,
+        72057594037927936
+      ],
+      "archive_upper_ratio": [
+        3602879701896397,
+        9007199254740992
+      ],
+      "center_binary64_hex": "0x1.7d431f9231cf6p-3",
+      "center_ratio": [
+        3353617781329531,
+        18014398509481984
+      ],
+      "coordinate": 7,
+      "lower_ratio": [
+        247453315732910003801233865398288383,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "normal",
+      "prior_name": "alpha",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        13414471125318123,
+        72057594037927936
+      ],
+      "rounding_cell_right_ratio": [
+        13414471125318125,
+        72057594037927936
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        247453315732910003801233865398288385,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        3602879701896397,
+        9007199254740992
+      ],
+      "archive_upper_ratio": [
+        4458563631096791,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.808cd9dcbad0ap-1",
+      "center_ratio": [
+        3382539324872325,
+        4503599627370496
+      ],
+      "coordinate": 8,
+      "lower_ratio": [
+        998349395922849102714022915158835199,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "zeta_p",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        13530157299489299,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        13530157299489301,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        998349395922849102714022915158835201,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        3602879701896397,
+        9007199254740992
+      ],
+      "archive_upper_ratio": [
+        4458563631096791,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.a2501a8ad68d3p-1",
+      "center_ratio": [
+        7359038449608915,
+        9007199254740992
+      ],
+      "coordinate": 9,
+      "lower_ratio": [
+        1086002391268191836546695481650053119,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "zeta_w",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        14718076899217829,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        14718076899217831,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1086002391268191836546695481650053121,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        1,
+        1
+      ],
+      "archive_upper_ratio": [
+        2,
+        1
+      ],
+      "center_binary64_hex": "0x1.6c6037be51dd6p+0",
+      "center_ratio": [
+        3205083876724459,
+        2251799813685248
+      ],
+      "coordinate": 10,
+      "lower_ratio": [
+        4260287217781001012858801676287511596140210850459925,
+        2993155353253689176481146537402947624255349848014848
+      ],
+      "prior_kind": "normal",
+      "prior_name": "Phi_p",
+      "radius_ratio": [
+        3205083876724459,
+        2993155353253689176481146537402947624255349848014848
+      ],
+      "rounding_cell_left_ratio": [
+        12820335506897835,
+        9007199254740992
+      ],
+      "rounding_cell_right_ratio": [
+        12820335506897837,
+        9007199254740992
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        4260287217781001012858801676287511602550378603908843,
+        2993155353253689176481146537402947624255349848014848
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        4458563631096791,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.d9bb2cfaa07f4p-2",
+      "center_ratio": [
+        2083491653779965,
+        4503599627370496
+      ],
+      "coordinate": 11,
+      "lower_ratio": [
+        614938197071822116476152506786775039,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "psi",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        16667933230239719,
+        36028797018963968
+      ],
+      "rounding_cell_right_ratio": [
+        16667933230239721,
+        36028797018963968
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        614938197071822116476152506786775041,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        3152519739159347,
+        4503599627370496
+      ],
+      "archive_upper_ratio": [
+        5,
+        2
+      ],
+      "center_binary64_hex": "0x1.885af7d6de7cfp+0",
+      "center_ratio": [
+        6902388211181519,
+        4503599627370496
+      ],
+      "coordinate": 12,
+      "lower_ratio": [
+        9174847648078241149324894334231242903272833191909425,
+        5986310706507378352962293074805895248510699696029696
+      ],
+      "prior_kind": "normal",
+      "prior_name": "phi_pi",
+      "radius_ratio": [
+        6902388211181519,
+        5986310706507378352962293074805895248510699696029696
+      ],
+      "rounding_cell_left_ratio": [
+        13804776422363037,
+        9007199254740992
+      ],
+      "rounding_cell_right_ratio": [
+        13804776422363039,
+        9007199254740992
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        9174847648078241149324894334231242917077609614272463,
+        5986310706507378352962293074805895248510699696029696
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        1152921504606847,
+        1152921504606846976
+      ],
+      "archive_upper_ratio": [
+        5404319552844595,
+        9007199254740992
+      ],
+      "center_binary64_hex": "0x1.0bc71d431be0ap-4",
+      "center_ratio": [
+        2355398352363269,
+        36028797018963968
+      ],
+      "coordinate": 13,
+      "lower_ratio": [
+        86898861195364749351795463875985407,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "normal",
+      "prior_name": "phi_y",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        9421593409453075,
+        144115188075855872
+      ],
+      "rounding_cell_right_ratio": [
+        9421593409453077,
+        144115188075855872
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        86898861195364749351795463875985409,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        1152921504606847,
+        1152921504606846976
+      ],
+      "archive_upper_ratio": [
+        5404319552844595,
+        9007199254740992
+      ],
+      "center_binary64_hex": "0x1.a4eb71045ab07p-3",
+      "center_ratio": [
+        7404897553459975,
+        36028797018963968
+      ],
+      "coordinate": 14,
+      "lower_ratio": [
+        273192500121428302998700293305139199,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "normal",
+      "prior_name": "phi_dy",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        14809795106919949,
+        72057594037927936
+      ],
+      "rounding_cell_right_ratio": [
+        14809795106919951,
+        72057594037927936
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        273192500121428302998700293305139201,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5404319552844595,
+        18014398509481984
+      ],
+      "archive_upper_ratio": [
+        8782019273372467,
+        9007199254740992
+      ],
+      "center_binary64_hex": "0x1.9dfdbf161bfe2p-1",
+      "center_ratio": [
+        3641505079156721,
+        4503599627370496
+      ],
+      "coordinate": 15,
+      "lower_ratio": [
+        1074782595813079596135239876844978175,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        14566020316626883,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        14566020316626885,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1074782595813079596135239876844978177,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.2711ad6e57c4cp-3",
+      "center_ratio": [
+        1297727417310995,
+        9007199254740992
+      ],
+      "coordinate": 16,
+      "lower_ratio": [
+        191510764356575993600505263014543359,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho_r",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        10381819338487959,
+        72057594037927936
+      ],
+      "rounding_cell_right_ratio": [
+        10381819338487961,
+        72057594037927936
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        191510764356575993600505263014543361,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.f3e52b54c24a8p-1",
+      "center_ratio": [
+        1099281153492117,
+        1125899906842624
+      ],
+      "coordinate": 17,
+      "lower_ratio": [
+        1297802118625363791415757866279108607,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho_g",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        17588498455873871,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        17588498455873873,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1297802118625363791415757866279108609,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.f2c1ee8e3b25cp-1",
+      "center_ratio": [
+        2193558886476951,
+        2251799813685248
+      ],
+      "coordinate": 18,
+      "lower_ratio": [
+        1294848620462451806817673732121690111,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho_z",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        17548471091815607,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        17548471091815609,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1294848620462451806817673732121690113,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.535f1a7b3b651p-1",
+      "center_ratio": [
+        5970286527886929,
+        9007199254740992
+      ],
+      "coordinate": 19,
+      "lower_ratio": [
+        881058781013169465590136132297818111,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho_u",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        11940573055773857,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        11940573055773859,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        881058781013169465590136132297818113,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        1152921504606847,
+        1152921504606846976
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.d06db1a308904p-1",
+      "center_ratio": [
+        2042578107900481,
+        2251799813685248
+      ],
+      "coordinate": 20,
+      "lower_ratio": [
+        1205725299424066142651715893143273471,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho_p",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        16340624863203847,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        16340624863203849,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1205725299424066142651715893143273473,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        1152921504606847,
+        1152921504606846976
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.e39e342378c70p-1",
+      "center_ratio": [
+        531743595788487,
+        562949953421312
+      ],
+      "coordinate": 21,
+      "lower_ratio": [
+        1255544067116067821641846111365758975,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho_w",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        17015795065231583,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        17015795065231585,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1255544067116067821641846111365758977,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.cd246a6373379p-1",
+      "center_ratio": [
+        8112500226077561,
+        9007199254740992
+      ],
+      "coordinate": 22,
+      "lower_ratio": [
+        1197193723746909168482077213991108607,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho_i",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        16225000452155121,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        16225000452155123,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1197193723746909168482077213991108609,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.6603a50e99a83p-1",
+      "center_ratio": [
+        6298253069490819,
+        9007199254740992
+      ],
+      "coordinate": 23,
+      "lower_ratio": [
+        929458099874822065276799663348908031,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "mu_p",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        12596506138981637,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        12596506138981639,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        929458099874822065276799663348908033,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.d03d6e4dac571p-1",
+      "center_ratio": [
+        8166995822036337,
+        9007199254740992
+      ],
+      "coordinate": 24,
+      "lower_ratio": [
+        1205235854241275739430173858632564735,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "mu_w",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        16333991644072673,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        16333991644072675,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1205235854241275739430173858632564737,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        3,
+        2
+      ],
+      "center_binary64_hex": "0x1.6cd79c3c267fep+0",
+      "center_ratio": [
+        3209186173334527,
+        2251799813685248
+      ],
+      "coordinate": 25,
+      "lower_ratio": [
+        4265740105282116955037063529126351178219964304641025,
+        2993155353253689176481146537402947624255349848014848
+      ],
+      "prior_kind": "normal",
+      "prior_name": "rho_gz",
+      "radius_ratio": [
+        3209186173334527,
+        2993155353253689176481146537402947624255349848014848
+      ],
+      "rounding_cell_left_ratio": [
+        12836744693338107,
+        9007199254740992
+      ],
+      "rounding_cell_right_ratio": [
+        12836744693338109,
+        9007199254740992
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        4265740105282116955037063529126351184638336651310079,
+        2993155353253689176481146537402947624255349848014848
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        3,
+        1
+      ],
+      "center_binary64_hex": "0x1.d7b50b0f87e03p-2",
+      "center_ratio": [
+        8298360821284355,
+        18014398509481984
+      ],
+      "coordinate": 26,
+      "lower_ratio": [
+        612310953206122812699085265143070719,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "inv_gamma_dynare",
+      "prior_name": "sig_g",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        16596721642568709,
+        36028797018963968
+      ],
+      "rounding_cell_right_ratio": [
+        16596721642568711,
+        36028797018963968
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        612310953206122812699085265143070721,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        3602879701896397,
+        144115188075855872
+      ],
+      "archive_upper_ratio": [
+        9,
+        1
+      ],
+      "center_binary64_hex": "0x1.447a1c57394fdp-1",
+      "center_ratio": [
+        5708259662206205,
+        9007199254740992
+      ],
+      "coordinate": 27,
+      "lower_ratio": [
+        842390440759980792443511935063818239,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "inv_gamma_dynare",
+      "prior_name": "sig_u",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        11416519324412409,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        11416519324412411,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        842390440759980792443511935063818241,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        3,
+        1
+      ],
+      "center_binary64_hex": "0x1.cbabd4065ebb8p-2",
+      "center_ratio": [
+        1010827667488119,
+        2251799813685248
+      ],
+      "coordinate": 28,
+      "lower_ratio": [
+        596687337112899467716236559912009727,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "inv_gamma_dynare",
+      "prior_name": "sig_z",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        16173242679809903,
+        36028797018963968
+      ],
+      "rounding_cell_right_ratio": [
+        16173242679809905,
+        36028797018963968
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        596687337112899467716236559912009729,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        3,
+        1
+      ],
+      "center_binary64_hex": "0x1.cf539f23dd42cp-3",
+      "center_ratio": [
+        2037732143494411,
+        9007199254740992
+      ],
+      "coordinate": 29,
+      "lower_ratio": [
+        300716186734503902066140849696145407,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "inv_gamma_dynare",
+      "prior_name": "sig_r",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        16301857147955287,
+        72057594037927936
+      ],
+      "rounding_cell_right_ratio": [
+        16301857147955289,
+        72057594037927936
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        300716186734503902066140849696145409,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        3,
+        1
+      ],
+      "center_binary64_hex": "0x1.6e770bc7afa58p-4",
+      "center_ratio": [
+        805865109020491,
+        9007199254740992
+      ],
+      "coordinate": 30,
+      "lower_ratio": [
+        118924699392264352641466788529307647,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "inv_gamma_dynare",
+      "prior_name": "sig_p",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        12893841744327855,
+        144115188075855872
+      ],
+      "rounding_cell_right_ratio": [
+        12893841744327857,
+        144115188075855872
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        118924699392264352641466788529307649,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        3,
+        1
+      ],
+      "center_binary64_hex": "0x1.3fb2250679316p-2",
+      "center_ratio": [
+        2812074676963723,
+        9007199254740992
+      ],
+      "coordinate": 31,
+      "lower_ratio": [
+        414988975056874072140928533024210943,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "inv_gamma_dynare",
+      "prior_name": "sig_w",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        11248298707854891,
+        36028797018963968
+      ],
+      "rounding_cell_right_ratio": [
+        11248298707854893,
+        36028797018963968
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        414988975056874072140928533024210945,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        3,
+        1
+      ],
+      "center_binary64_hex": "0x1.66d2426d96a49p-2",
+      "center_ratio": [
+        6312451525667401,
+        18014398509481984
+      ],
+      "coordinate": 32,
+      "lower_ratio": [
+        465776711086735787788092971432280063,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "inv_gamma_dynare",
+      "prior_name": "sig_i",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        12624903051334801,
+        36028797018963968
+      ],
+      "rounding_cell_right_ratio": [
+        12624903051334803,
+        36028797018963968
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        465776711086735787788092971432280065,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        1152921504606847,
+        1152921504606846976
+      ],
+      "archive_upper_ratio": [
+        4503149267407759,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.c42e3d303cbf9p-1",
+      "center_ratio": [
+        7954845613149177,
+        9007199254740992
+      ],
+      "coordinate": 33,
+      "lower_ratio": [
+        1173928009373072041995347443115360255,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "beta",
+      "prior_name": "rho_fin",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        15909691226298353,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        15909691226298355,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        1173928009373072041995347443115360257,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        5764607523034235,
+        576460752303423488
+      ],
+      "archive_upper_ratio": [
+        3,
+        1
+      ],
+      "center_binary64_hex": "0x1.4ae46f63e88d9p-4",
+      "center_ratio": [
+        5821119336450265,
+        72057594037927936
+      ],
+      "coordinate": 34,
+      "lower_ratio": [
+        107380698622020003380136478234378239,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "inv_gamma_dynare",
+      "prior_name": "sig_fin",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        11642238672900529,
+        144115188075855872
+      ],
+      "rounding_cell_right_ratio": [
+        11642238672900531,
+        144115188075855872
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        107380698622020003380136478234378241,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        3602879701896397,
+        36028797018963968
+      ],
+      "archive_upper_ratio": [
+        3602879701896397,
+        4503599627370496
+      ],
+      "center_binary64_hex": "0x1.a310bbe1a0962p-2",
+      "center_ratio": [
+        3686137949127857,
+        9007199254740992
+      ],
+      "coordinate": 35,
+      "lower_ratio": [
+        543977946943601414180353261799735295,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "normal",
+      "prior_name": "trend",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        14744551796511427,
+        36028797018963968
+      ],
+      "rounding_cell_right_ratio": [
+        14744551796511429,
+        36028797018963968
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        543977946943601414180353261799735297,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        -4,
+        1
+      ],
+      "archive_upper_ratio": [
+        4,
+        1
+      ],
+      "center_binary64_hex": "0x1.075de94152392p+1",
+      "center_ratio": [
+        2316599227486665,
+        1125899906842624
+      ],
+      "coordinate": 36,
+      "lower_ratio": [
+        3079288548188984111997655764489319908729977417592375,
+        1496577676626844588240573268701473812127674924007424
+      ],
+      "prior_kind": "normal",
+      "prior_name": "mean_l",
+      "radius_ratio": [
+        2316599227486665,
+        1496577676626844588240573268701473812127674924007424
+      ],
+      "rounding_cell_left_ratio": [
+        9266396909946659,
+        4503599627370496
+      ],
+      "rounding_cell_right_ratio": [
+        9266396909946661,
+        4503599627370496
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        3079288548188984111997655764489319913363175872565705,
+        1496577676626844588240573268701473812127674924007424
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        3602879701896397,
+        36028797018963968
+      ],
+      "archive_upper_ratio": [
+        2,
+        1
+      ],
+      "center_binary64_hex": "0x1.6e652a68cc81bp-1",
+      "center_ratio": [
+        6445692143585307,
+        9007199254740992
+      ],
+      "coordinate": 37,
+      "lower_ratio": [
+        951216266805107825190838956925648895,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "gamma",
+      "prior_name": "mean_Pi",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        12891384287170613,
+        18014398509481984
+      ],
+      "rounding_cell_right_ratio": [
+        12891384287170615,
+        18014398509481984
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        951216266805107825190838956925648897,
+        1329227995784915872903807060280344576
+      ]
+    },
+    {
+      "archive_lower_ratio": [
+        3602879701896397,
+        36028797018963968
+      ],
+      "archive_upper_ratio": [
+        2,
+        1
+      ],
+      "center_binary64_hex": "0x1.dd4f7bcd1b7c2p-2",
+      "center_ratio": [
+        4198467407240161,
+        9007199254740992
+      ],
+      "coordinate": 38,
+      "lower_ratio": [
+        619584430105361172382770714701201407,
+        1329227995784915872903807060280344576
+      ],
+      "prior_kind": "normal",
+      "prior_name": "mean_spread",
+      "radius_ratio": [
+        1,
+        1329227995784915872903807060280344576
+      ],
+      "rounding_cell_left_ratio": [
+        16793869628960643,
+        36028797018963968
+      ],
+      "rounding_cell_right_ratio": [
+        16793869628960645,
+        36028797018963968
+      ],
+      "same_binary64_for_entire_real_box": true,
+      "strict_archive_bounds": true,
+      "strict_natural_prior_support": true,
+      "upper_ratio": [
+        619584430105361172382770714701201409,
+        1329227995784915872903807060280344576
+      ]
+    }
+  ],
+  "generated_utc": "2026-09-27T07:44:09.780331+00:00",
+  "log10_box_volume_approx": -1395.3432469555505,
+  "logprior_at_center": -29.19581636940125,
+  "min_archive_bound_margin": 0.023542202285240732,
+  "min_round_cell_margin_over_radius": 9.223372036854776e+18,
+  "radius_exponent": 120,
+  "same_binary64_implementation_parameter_on_box": true,
+  "scientific_impossibility_proven": false,
+  "scope": "VALIDATION_ONLY_EXACT_39D_THETA_BOX_SUPPORT",
+  "source_sha256": {
+    "capture": "0951396abd8cd091dd6267c836b4121ab170b13025eff0f300f927da354b5a2a",
+    "meta": "b371d3016bd46daa2de99227d80c6cef0671e93221e508ff62e2325fa3cbd3e6",
+    "runner": "20c5fdbef7aa89bff8906099f11a87c97f0963a3eeaea2648702b823b66f5c36"
+  },
+  "theta_dimension": 39,
+  "volume_exact_ratio": [
+    1001270429562859418092618310516852595867055070529631716322058755999502421948804866327727287144268874840973475,
+    2206979737717853182555015104712730208857650273725845495021387634151747140379230488372014259869861759958368800131740095043190684969843427161499549776978748803610184028935396859560593744455182922958960909572364433633642362740200688061732820874294698959663334462118230262524462303210385931882797669526554255592201650274552759659815881784580961265493073080101541434096940219716108425612138458459113969035003528729573837439796955378801266801181710864673340831233855244275098901422247538345716185760263642718457613140312638094901065965691631764232719231078440928759034351379177183878732379373471209692300743289225372591701134323998309465917621819308640914345103771187700801602292606609519534661375285186052191335154112238525593560346851735099421647842962301267486561050437568530357514905606508665119145251358076340231702100780333787759198051983442696267244758702853471981788659684548154256327023491906115261568434781231115810621917462248210915236176554245991706892454222349970365290863012401723296760256950670242372349308330500325064967501406903311748132136023679192960096605183473870093582462619073586341848730726380755452578366796841626871335022396202000192876746339614631149341862733390692930753260405604965063426462388867410825680578860768201195048697120185721934578086807658935815152089925382328632423106216107833149686564489643917099645053748785629282199972418542819295210283128099079703653320417500728279549385941937532827819577563121698505239103427149966594565504380804392690064799789283892045581123584
+  ]
+}
