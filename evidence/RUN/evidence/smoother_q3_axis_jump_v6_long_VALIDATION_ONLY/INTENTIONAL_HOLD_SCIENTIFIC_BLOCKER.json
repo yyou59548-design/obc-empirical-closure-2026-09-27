@@ -1,0 +1,20 @@
+{
+  "scope": "VALIDATION_ONLY_V6_LONG_INTENTIONAL_HOLD_AFTER_SCIENTIFIC_BLOCKER",
+  "utc": "2026-09-27T09:15:49.984716+00:00",
+  "reason": "Independent original-equation theta-box audit confirmed positive-prior-predictive-mass failure of the locked eventually-slack selected target; this fixed-theta smoother is not an endpoint result.",
+  "frozen_protocol_sha256": "8f0a67848c31630317ab266dd6fe62fc0159a160c6b46c136b0c51e6349e1c81",
+  "chain_id": 0,
+  "last_complete_atomic_sweep": 3910,
+  "invalid_solver_evaluations_at_checkpoint": 0,
+  "checkpoint_sha256": "e413796b328664d5a01359e691935d3f19a01325ac8c0c4088ebfabd344ba5f9",
+  "checkpoint_bytes": 271730,
+  "frozen_config_sha256": "e79e79a10cecb9691afdae27310db3a5e69a2c8ff805c2006e5fbcd1e15fac74",
+  "remaining_chains_not_started": [
+    1,
+    2,
+    3
+  ],
+  "resume_requires": "Explicit review of scientific target; resume only from this atomic checkpoint under the same frozen protocol.",
+  "endpoint_result": false,
+  "paper_ready": false
+}
