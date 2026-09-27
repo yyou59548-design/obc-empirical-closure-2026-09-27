@@ -1,0 +1,13 @@
+# 证据文本导航
+
+这里是 [`OBC_SCIENTIFIC_BLOCK_EVIDENCE_v1.zip`](../results/OBC_SCIENTIFIC_BLOCK_EVIDENCE_v1.zip) 中原路径保留的可直接阅读文本节选。除本索引和 [`CURATED_MANIFEST.json`](CURATED_MANIFEST.json) 外，文件字节均来自证据 ZIP，逐项通过 ZIP CRC 和 SHA-256 读回检查。完整 ZIP 中的压缩矩阵、冻结输入 NPZ、原子 checkpoint 等二进制证据仍须从小型证据 ZIP 或完整 Release 获取；本目录不能代替它们进行数值重算。
+
+建议先读仓库根目录的 [`README.md`](../README.md) 和 [`最终中文报告`](../results/OBC_SCIENTIFIC_BLOCKER_FINAL_CN.md)，再按以下顺序核查：
+
+1. [独立审计的最终结论](RUN/evidence/auxiliary_v4_theta39_adversarial_v1/FINAL_CONCLUSION.md)、[详细审计报告](RUN/evidence/auxiliary_v4_theta39_adversarial_v1/REPORT.md)及[有界路径范围勘误](RUN/evidence/auxiliary_v4_theta39_adversarial_v1/BOUNDED_CLASS_ERRATUM.md)。有限支撑的锁定选择规则结论是核心；不要把 Green 分支延伸读成所有无界均衡均不存在。
+2. [39 维参数盒与首期支持](RUN/evidence/auxiliary_v4_theta39_box_support_v1.json)、[实际 `F` 稳态律的源级区间支持](RUN/evidence/auxiliary_v4_theta39_source_stationary_support_arb_v4.json)和[初始律方向勘误](RUN/evidence/auxiliary_v4_theta39_initial_law_orientation_erratum_v1.md)。历史 `Fᵀ` 对照只是控制，不是主规格。
+3. [V4 全链 manifest](RUN/evidence/auxiliary_v4_theta39_eaware_chain_manifest_v4.json)、[primitive 报告](RUN/evidence/auxiliary_v4_source_primitive_arb_analytic_theta39_box_exp120_v4/report.json)、[图检验报告](RUN/evidence/auxiliary_v4_eaware_graph_arb_analytic_theta39_box_exp120_radius1over1000000000000000000000000_v4.json)、[全未来期对偶](RUN/evidence/auxiliary_v4_eaware_dual_adjoint_arb_analytic_theta39_box_exp120_v4.json)与 [Green 界报告](RUN/evidence/auxiliary_v4_eaware_green_arb_analytic_theta39_box_exp120_radius1over1000000000000000000000000_v4/report.json)。这些 JSON 给出数值边界及其来源；完整区间矩阵和核验协议在原 ZIP 中。
+4. [独立审计 manifest](RUN/evidence/auxiliary_v4_theta39_adversarial_v1/manifest.json)、[参数区间非塌缩检查](RUN/evidence/auxiliary_v4_theta39_adversarial_v1/noncollapse_summary.json)和[审计脚本](RUN/evidence/auxiliary_v4_theta39_adversarial_v1/audit_v4_manifest.py)。源方程入口为 [`source/model_engine.py`](source/model_engine.py) 和 [`source/locked_author_likelihood.py`](source/locked_author_likelihood.py)；核心认证脚本在 [`RUN/scripts/`](RUN/scripts/) 下，其余源脚本仍在完整证据 ZIP 内。
+5. [最终状态处理记录](RUN/evidence/scientific_blocker_finalization_v1.json)和[验证链有意暂停记录](RUN/evidence/smoother_q3_axis_jump_v6_long_VALIDATION_ONLY/INTENTIONAL_HOLD_SCIENTIFIC_BLOCKER.json)。这些不是合格端点结果；最终 gate 状态见 [`results/OBC_MANDATORY_GATE_LEDGER.json`](../results/OBC_MANDATORY_GATE_LEDGER.json)。
+
+[`MANIFEST.json`](MANIFEST.json) 是原小型证据 ZIP 的文件清单；[`CURATED_MANIFEST.json`](CURATED_MANIFEST.json) 列出本目录的 27 个原始文本文件、大小和 SHA-256。旧 V3 证据如被引用，须一并阅读[二进制 provenance 勘误](RUN/evidence/auxiliary_v4_eaware_v3_binary_provenance_erratum_v1.md)。[历史无限期几何对偶候选的勘误](RUN/evidence/auxiliary_v4_infinite_geometric_dual_candidate_v1/ERRATUM.md)也应随候选一起读；该候选不是最终证明。
