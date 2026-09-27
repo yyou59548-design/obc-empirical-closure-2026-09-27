@@ -1,0 +1,25 @@
+{
+  "scope": "SCOPED_LOCKED_TARGET_SCIENTIFIC_BLOCKER_FINALIZATION_V1",
+  "generated_utc": "2026-09-27T09:17:17.760052+00:00",
+  "source_sha256": {
+    "runner": "12927ad9ce6d4bca86353e485559aff7dbad6ece99432739a6dcd1f0f8c45109",
+    "v4_chain": "b395e15837d38617c107bc4080dfd5af876a7aa8968e2dacda2138c3cdbe06ed",
+    "theta_prior_box": "564ce832e7a7c0d523eade390b4bb3f767695a23f8d3553982f7d488ca283bde",
+    "v4_dual": "e93331525c90dcecc8a4b9ef3f971c6adb1ca83b65d1e643ad6d2cd59e25eb68",
+    "v4_corrected_F_support": "a6d02074027355f3d606728676b7d873c4015102ba043dbf26d80d689a48375f",
+    "v4_bounded_wedge": "18fc1b7cecb6fc1f3ae31c300a1203b54067503ab7f6d563a7ea6e8ae64911b9",
+    "independent_audit_addendum": "55a2f09bc8a299a77533ac7207691903ef833b7f550133f09575dbf87a702979",
+    "v6_hold": "d53cc42b28a1b912b94642d51c2a1e7ce298f152ecbc09e4d8811549a75d8fa4",
+    "task_START_HERE_CN": "3ff943af48dd91105afce41cd8d29a3666bf4820317683a4a126f602bf3f4d35",
+    "task_CODEX_MASTER_TASK": "cad78679dc269f94d4ac6042e922e52d2f9d4ebe92a2d0a16ffd59ad9a98c646",
+    "task_ACCEPTANCE_GATES": "e9658f20597d527682f6a386a6112847ed67935ab131d0727ce019b4cc9d94d4"
+  },
+  "final_status_path": "C:\\Users\\ZZH\\Documents\\Codex\\2026-09-26\\zip-start-here-cn-md-codex\\work\\obc_fresh_20260926_202630\\OBC_CODEX_FULL_EMPIRICAL_CLOSURE_TASK_20260926\\OUTPUT\\final_status.json",
+  "final_status_sha256": "74763e00c26e81f72394fed2254077cef6cfe62f97f0e9ddf6cbf7214d0e5e7d",
+  "scientific_impossibility_proven_for_locked_selected_target": true,
+  "paper_ready": false,
+  "all_possible_equilibria_absent_proven": false,
+  "observed_data_posterior_positive_mass_proven": false,
+  "qualified_endpoint_posteriors": 0,
+  "v6_validation_only_checkpoint_sha256": "e413796b328664d5a01359e691935d3f19a01325ac8c0c4088ebfabd344ba5f9"
+}
