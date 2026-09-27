@@ -1,0 +1,144 @@
+{
+  "source_archive": "OBC_SCIENTIFIC_BLOCK_EVIDENCE_v1.zip",
+  "source_archive_sha256": "ceba2b91702f0aa20aa97bc2995847cf94db18585d89a7c08c2aa005694ea9c4",
+  "selection": "27 curated original UTF-8 evidence, errata, scripts, and source files; excludes binary npz/gzip, duplicate task/public/status/ledger files.",
+  "file_count": 27,
+  "total_bytes": 203046,
+  "files": [
+    {
+      "path": "RUN/evidence/auxiliary_v4_eaware_dual_adjoint_arb_analytic_theta39_box_exp120_v4.json",
+      "bytes": 1783,
+      "sha256": "e93331525c90dcecc8a4b9ef3f971c6adb1ca83b65d1e643ad6d2cd59e25eb68"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_eaware_graph_arb_analytic_theta39_box_exp120_radius1over1000000000000000000000000_v4.json",
+      "bytes": 1762,
+      "sha256": "c95eff0bcf3faf4c91f62cac5cd1e046b5fb83556ba0657d39ea3ff1976bd048"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_eaware_green_arb_analytic_theta39_box_exp120_radius1over1000000000000000000000000_v4/report.json",
+      "bytes": 2257,
+      "sha256": "96b760692c4a124a107c12bae6927a8595322e0f278ef8540fb25a3174fa3750"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_eaware_v3_binary_provenance_erratum_v1.md",
+      "bytes": 2201,
+      "sha256": "01925a93769e7bf3af26bfc975a440f1aeaa52a050781693868f8fda10ba2d18"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_infinite_geometric_dual_candidate_v1/ERRATUM.md",
+      "bytes": 630,
+      "sha256": "693825ed47f110a27b307732c6b3d8ba888cb9ca56ad4dba87a39df82b001c4f"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_source_primitive_arb_analytic_theta39_box_exp120_v4/report.json",
+      "bytes": 1811,
+      "sha256": "75b2a62552e268dc741a38599e313ff9c2cfcdd1925b5f1308a23e1f2a3997e1"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_adversarial_v1/BOUNDED_CLASS_ERRATUM.md",
+      "bytes": 1239,
+      "sha256": "6540ff2408ea666c323921c700959db1c4c3ba0e402146434a6845580b82d896"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_adversarial_v1/FINAL_CONCLUSION.md",
+      "bytes": 2247,
+      "sha256": "586711d154fe935ce8773309262d8a4a09914a9602e7b6a61ad4ab098a20a740"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_adversarial_v1/REPORT.md",
+      "bytes": 10614,
+      "sha256": "0d46161c3abbaa7f904c49be41a9ae0bed6b7b092bd026930c6735b60e4f68ec"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_adversarial_v1/audit_v4_manifest.py",
+      "bytes": 3708,
+      "sha256": "9f5ab4c777b7be38a79771681b0f2aee306d5068bb8ab74dfa8ddebfe5edb730"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_adversarial_v1/manifest.json",
+      "bytes": 1335,
+      "sha256": "36690751c23345b71c9e9bd8af7347d512bc85466bca7d2b9af783971e194345"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_adversarial_v1/manifest_independent_summary.json",
+      "bytes": 1757,
+      "sha256": "463ac4f2d64b98657ae06e08fa872e9752849afa6aa1d553ee781496e81be62d"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_adversarial_v1/noncollapse_summary.json",
+      "bytes": 1805,
+      "sha256": "93f524accb5b991fc48c44ef64f9511c486ce82973965eca4d6f03591006ccef"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_box_support_v1.json",
+      "bytes": 46281,
+      "sha256": "564ce832e7a7c0d523eade390b4bb3f767695a23f8d3553982f7d488ca283bde"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_eaware_chain_manifest_v4.json",
+      "bytes": 3065,
+      "sha256": "b395e15837d38617c107bc4080dfd5af876a7aa8968e2dacda2138c3cdbe06ed"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_initial_law_orientation_erratum_v1.md",
+      "bytes": 1687,
+      "sha256": "578102a144c3e2dfd6861672938eb243b69a8883ad85ec8db4a46778ea518930"
+    },
+    {
+      "path": "RUN/evidence/auxiliary_v4_theta39_source_stationary_support_arb_v4.json",
+      "bytes": 7443,
+      "sha256": "a6d02074027355f3d606728676b7d873c4015102ba043dbf26d80d689a48375f"
+    },
+    {
+      "path": "RUN/evidence/scientific_blocker_finalization_v1.json",
+      "bytes": 1806,
+      "sha256": "2426e726fbcc484467cd5ac2be3bce66c531ecd3c80ff0f946db2ee36210e224"
+    },
+    {
+      "path": "RUN/evidence/smoother_q3_axis_jump_v6_long_VALIDATION_ONLY/INTENTIONAL_HOLD_SCIENTIFIC_BLOCKER.json",
+      "bytes": 1001,
+      "sha256": "d53cc42b28a1b912b94642d51c2a1e7ce298f152ecbc09e4d8811549a75d8fa4"
+    },
+    {
+      "path": "RUN/scripts/auxiliary_v4_eaware_dual_adjoint_arb_v4.py",
+      "bytes": 9685,
+      "sha256": "207e395e3c6d587e6ae559796968fc2f985612bb922dc447566bc95f1b16c72d"
+    },
+    {
+      "path": "RUN/scripts/auxiliary_v4_eaware_graph_arb_v4.py",
+      "bytes": 10421,
+      "sha256": "4dc0b12e718e54af6e91b122076d2d333dda1cab5853082ba8f1dd9dd1bcbdcb"
+    },
+    {
+      "path": "RUN/scripts/auxiliary_v4_eaware_green_arb_v4.py",
+      "bytes": 13648,
+      "sha256": "c34849ef691dadc2bf955263c0e402621b8e1911517f004a84211c4acf3153e2"
+    },
+    {
+      "path": "RUN/scripts/auxiliary_v4_source_primitive_arb_v4.py",
+      "bytes": 16542,
+      "sha256": "ac53f3ea40967a5f7771b1b202545cbc3e73c3e4d6e2532bdb8aa614ab313b44"
+    },
+    {
+      "path": "RUN/scripts/auxiliary_v4_theta39_source_stationary_support_arb_v4.py",
+      "bytes": 13264,
+      "sha256": "15500359e917605b24e880e4c7b900d0064474c17867933860e1a46f83529e8b"
+    },
+    {
+      "path": "source/locked_author_likelihood.py",
+      "bytes": 17240,
+      "sha256": "fd89dfe000698fc5ce2c695ab91e5292b928e0ad4369835483f9073b76882dc5"
+    },
+    {
+      "path": "source/model_engine.py",
+      "bytes": 17318,
+      "sha256": "44e746289575b4612bfc84baf8207eeb4ba30647511b87d5927596ec8432297a"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 10496,
+      "sha256": "9899c62b195c63d7c0055690660e8dc468bbedc288994d98d55f046ea5636ec1"
+    }
+  ]
+}
